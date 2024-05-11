@@ -1,0 +1,38 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container .button-wrapper {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+.container .button-wrapper button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+.container .dialog-children {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .dialog-children button{
+    padding:10px 20px;
+    background:#fff;
+    color:#222;
+    border:none;
+    cursor:pointer;
+    font-size: 16px;
+    font-weight: 600;
+
+}

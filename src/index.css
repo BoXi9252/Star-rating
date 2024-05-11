@@ -1,0 +1,13 @@
+html,
+body,
+#root {
+  height: 100%;
+  background: #000;
+  font-family: PingFangSC, sans-serif, system-ui !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: PingFangSC, sans-serif, system-ui !important;
+}
